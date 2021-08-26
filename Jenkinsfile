@@ -2,21 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Branch2') {
             steps {
-                echo 'Hello World. This is Shabduli'
+                echo '2+2=4'
             }
         }
-        stage('Build') {
-            steps {
-                echo 'Building '
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying '
-            }
-        }
-        
+       
     }
 }
