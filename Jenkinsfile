@@ -2,35 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Branch3') {
             steps {
-                echo 'Hello World. This is Shabduli'
+                echo '3+3=6'
             }
         }
-        stage('Build') {
-            steps {
-                echo 'Building '
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying '
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing '
-            }
-        }
-        stage('Release') {
-            steps {
-                echo 'Releasing '
-            }
-        }
-      stage('Final one'){
-        steps {
-          echo 'Completed'
-        }
-      }
+       
+       
+        
+       
+      
     }
 }
