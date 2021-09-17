@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Branch3') {
             steps {
-                echo '3+3=6'
+                echo '3+2=5'
             }
         }
        
